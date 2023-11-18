@@ -5,7 +5,11 @@ xi. We also have a bias b; these weights are learned from a dataset.Once we have
 We'll start off classification between 1 and 7.
 
 ## Some images that were labeled as a digit seven in the training set were misclassified as being a digit one by the classifier. Find the image of a seven that had the highest probability of being a one (include a picture). Explain why the digit was classified as a one instead of as a seven (include a visualization, like we did above).
+<img width="299" alt="Screenshot 2023-11-18 at 5 04 21 PM" src="https://github.com/carlosmacias1212/Logistic-Regression-with-Handwritten-Images/assets/68452096/9b75d100-a33b-43be-a822-42cd536cdfe7">
+
+
 Some images that were labeled as a digit seven in the training set were misclassified as being a digit one by the classifier. Find the image of a seven that had the highest probability of being a one (include a picture). Explain why the digit was classified as a one instead of as a seven (include a visualization, like we did above).
+
 
 ## Some images that were labeled as a digit one in the training set were misclassified as being a digit seven by the classifier. Find the image of a one that had the highest probability of being a seven (include a picture). Explain why the digit was classified as a seven instead of as a one (include a visualization, like we did above).
 This digit was classified as a seven instead of a one because the relevant weights used to calculate its probability for each digit strongly favored seven (over 70%) even though it was labeled one. This can be seen by the second image because more red pixels (positive-7) fall within the digits area.
