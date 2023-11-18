@@ -12,7 +12,12 @@ Some images that were labeled as a digit seven in the training set were misclass
 
 
 ## Some images that were labeled as a digit one in the training set were misclassified as being a digit seven by the classifier. Find the image of a one that had the highest probability of being a seven (include a picture). Explain why the digit was classified as a seven instead of as a one (include a visualization, like we did above).
+<img width="199" alt="Screenshot 2023-11-18 at 5 07 05 PM" src="https://github.com/carlosmacias1212/Logistic-Regression-with-Handwritten-Images/assets/68452096/fb0de392-8845-49bf-ab9c-8a9799b3a67b">
+
+
 This digit was classified as a seven instead of a one because the relevant weights used to calculate its probability for each digit strongly favored seven (over 70%) even though it was labeled one. This can be seen by the second image because more red pixels (positive-7) fall within the digits area.
 
 ## Train another logistic regression model using any other pair of digits i and j, besides 1 and 7. Provide a single example of a digit labeled i being misclassified as j, with a visualization of why it was misclassified (like we did above). (Note that this is only possible if some image of a digit was misclassified, i.e., if it did not get 100% accuracy.)
+<img width="216" alt="Screenshot 2023-11-18 at 5 35 19 PM" src="https://github.com/carlosmacias1212/Logistic-Regression-with-Handwritten-Images/assets/68452096/187e9031-35cb-4e03-adf6-88f7205d4b05">
+
 When training 0 vs 6, an image of the zero digit was wrongfully classified as 6. This can be seen in the second image where the positive class’ (6) weights (red) make up most of the zero image which explains the over 90% probability of it being a 6 according to the classifier.
